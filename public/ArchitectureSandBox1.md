@@ -7,12 +7,20 @@ tags:
   - システム設計
   - 個人開発
 private: false
-updated_at: '2025-12-10T19:57:48+09:00'
+updated_at: '2025-12-12T06:35:32+09:00'
 id: af5cb63424ddd54ee585
 organization_url_name: null
 slide: false
 ignorePublish: false
 ---
+
+:::note info
+**【2025/12/12 追記】 アップデートを行いました！**
+「DBを使わずにデータを共有する機能」や「VPC（グループ化）機能」を実装した開発裏話（続編）を公開しました！
+AWSの請求におびえながら、意地でステートレスを貫いた技術解説記事です。
+
+👉 **続編記事：[AWSの請求が怖いので、DBなしで「データ共有」を実装した話（と、React Flowの200ドル有料壁 vs AIの幻覚）](https://qiita.com/mzk_tech/items/46b5faa32dc5125b7a35)**
+:::
 
 ## はじめに：インプットだけじゃ、設計できるようにならなくない？
 
