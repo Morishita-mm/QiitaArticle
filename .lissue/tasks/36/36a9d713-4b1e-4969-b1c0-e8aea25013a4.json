@@ -1,0 +1,14 @@
+{
+  "local_id": 1,
+  "global_id": "36a9d713-4b1e-4969-b1c0-e8aea25013a4",
+  "title": "rustで作ったtodoアプリのtui追加を記事にする",
+  "description": null,
+  "status": "Close",
+  "assignee": null,
+  "parent_global_id": null,
+  "linked_files": [
+    "public/rust-todo-tui.md"
+  ],
+  "created_at": "2026-03-15T13:07:35.895094Z",
+  "updated_at": "2026-03-15T13:09:42.929512Z"
+}

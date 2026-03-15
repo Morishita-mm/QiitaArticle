@@ -1,2 +1,7 @@
 .remote
 node_modules
+.lissue/data.db
+
+# Added by cargo
+
+/target
