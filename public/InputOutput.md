@@ -10,7 +10,7 @@ updated_at: ''
 id: null
 organization_url_name: null
 slide: false
-ignorePublish: false
+ignorePublish: true
 ---
 :::note Info
 **この記事について**

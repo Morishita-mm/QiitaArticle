@@ -27,3 +27,33 @@ jobs:
         with:
           qiita-token: ${{ secrets.QIITA_TOKEN }}
           root: "."
+
+      - name: Resolve published article revision
+        id: revision
+        shell: bash
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger morimizu.dev deployment
+        if: ${{ vars.SITE_REPOSITORY != '' && vars.SITE_DEPLOY_WORKFLOW != '' }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.SITE_WORKFLOW_TOKEN }}
+          SITE_REPOSITORY: ${{ vars.SITE_REPOSITORY }}
+          SITE_DEPLOY_WORKFLOW: ${{ vars.SITE_DEPLOY_WORKFLOW }}
+          SITE_DEFAULT_BRANCH: ${{ vars.SITE_DEFAULT_BRANCH }}
+          ARTICLES_SHA: ${{ steps.revision.outputs.sha }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::notice::SITE_WORKFLOW_TOKEN is not configured; skipping site deployment."
+            exit 0
+          fi
+
+          site_branch="${SITE_DEFAULT_BRANCH:-main}"
+          payload=$(jq -cn \
+            --arg ref "$site_branch" \
+            --arg sha "$ARTICLES_SHA" \
+            '{ref: $ref, inputs: {articles_sha: $sha}}')
+
+          gh api --method POST \
+            "repos/${SITE_REPOSITORY}/actions/workflows/${SITE_DEPLOY_WORKFLOW}/dispatches" \
+            --input - <<< "$payload"
