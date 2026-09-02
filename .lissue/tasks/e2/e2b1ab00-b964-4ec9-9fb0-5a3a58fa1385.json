@@ -1,0 +1,14 @@
+{
+  "local_id": 4,
+  "global_id": "e2b1ab00-b964-4ec9-9fb0-5a3a58fa1385",
+  "title": "記事に最新知識の検索・補完問題とユーザーのリアルな所感セクションを追加",
+  "description": "内部知識への依存、最新モデル（Claude FableやGPT 5.6 sol）の把握不足、検索エンジン企業としての課題に関する所感を追記",
+  "status": "Close",
+  "assignee": null,
+  "parent_global_id": null,
+  "linked_files": [
+    "public/gemini-3-8-flash-and-cyber.md"
+  ],
+  "created_at": "2026-09-02T17:13:47.006219Z",
+  "updated_at": "2026-09-02T17:14:12.447536Z"
+}

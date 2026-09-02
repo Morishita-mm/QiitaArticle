@@ -11,8 +11,6 @@ id: 47217692a007f6a1299f
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
-agreed_posting_campaign_term: false
 ---
 > 自分用のメモの側面を含みますので、読みづらい可能性があります。ご留意ください。
 

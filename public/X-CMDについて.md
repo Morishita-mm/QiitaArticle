@@ -10,8 +10,6 @@ id: 9e2aa7d4a20265940138
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
-agreed_posting_campaign_term: false
 ---
 
 # X-CMD とは

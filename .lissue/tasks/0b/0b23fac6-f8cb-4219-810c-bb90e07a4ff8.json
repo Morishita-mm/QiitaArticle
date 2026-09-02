@@ -1,0 +1,14 @@
+{
+  "local_id": 3,
+  "global_id": "0b23fac6-f8cb-4219-810c-bb90e07a4ff8",
+  "title": "Gemini 3.8記事への批判的・懐疑的考察セクションの追加",
+  "description": "他社フロンティアモデル（Claude/OpenAI/Grok/Kimi）との比較やエージェントとしての実戦課題・works harderのトレードオフを追記",
+  "status": "Close",
+  "assignee": null,
+  "parent_global_id": null,
+  "linked_files": [
+    "public/gemini-3-8-flash-and-cyber.md"
+  ],
+  "created_at": "2026-09-02T17:09:45.781698Z",
+  "updated_at": "2026-09-02T17:10:42.258150Z"
+}

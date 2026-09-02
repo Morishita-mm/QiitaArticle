@@ -1,0 +1,14 @@
+{
+  "local_id": 5,
+  "global_id": "332aa2a0-d1b1-46e9-b014-ad7fa9c64612",
+  "title": "記事に軽量性・高速レスポンスによる壁打ちUXと適材適所の考察を追加",
+  "description": "回答速度によるUX、壁打ち・相談相手としての実用性、特定分野での上位食い込みのポテンシャルを追記",
+  "status": "Close",
+  "assignee": null,
+  "parent_global_id": null,
+  "linked_files": [
+    "public/gemini-3-8-flash-and-cyber.md"
+  ],
+  "created_at": "2026-09-02T17:18:14.308100Z",
+  "updated_at": "2026-09-02T17:18:40.189237Z"
+}

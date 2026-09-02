@@ -1,0 +1,14 @@
+{
+  "local_id": 2,
+  "global_id": "dfa02412-6659-481b-90a8-6c7589b3254b",
+  "title": "Gemini 3.8 Flashと3.8 Flash Cyberの解説記事作成とプレビュー",
+  "description": "公式ブログ情報に基づき解説記事を作成し、Qiita CLIでプレビュー表示を行う",
+  "status": "Close",
+  "assignee": null,
+  "parent_global_id": null,
+  "linked_files": [
+    "public/gemini-3-8-flash-and-cyber.md"
+  ],
+  "created_at": "2026-09-02T17:04:20.353064Z",
+  "updated_at": "2026-09-02T17:07:31.253708Z"
+}
