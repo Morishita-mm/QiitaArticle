@@ -9,6 +9,8 @@ id: e4756a6b931ea02972c6
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## はじめに
 Qiita Confference聞いてたら生成AIを使ったアプリ開発試してみたくなったので、ちょっと欲しいなと思ってたアプリ作ってみました。

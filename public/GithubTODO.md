@@ -10,6 +10,8 @@ id: e78b69164e394337e669
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## 1. はじめに：きっかけは一つの記事
 
